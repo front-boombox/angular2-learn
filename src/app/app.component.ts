@@ -8,4 +8,8 @@ import { Component } from '@angular/core';
 export class AppComponent { 
     name:string="Tom";
     age:number = 24;
+    visibility: boolean = true;
+    toggle(){
+        this.visibility = !this.visibility;
+    }
 }

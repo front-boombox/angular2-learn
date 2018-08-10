@@ -1,3 +1,13 @@
 <app-user></app-user>
 <child-comp2 [userName]="name" [userAge]="age"></child-comp2>
 <input type="text" [(ngModel)]="name" />
+<div [ngClass]="{verdanaFont:true, invisible: visibility}">
+    <h1 upper>Hello Angular 2</h1>
+    <p bold [ngClass]="{segoePrintFont:true}" [ngStyle]="{'color': '#ccc', 'font-size': '30px'}">
+        Angular 5 представляет модульную архитектуру приложения
+    </p>
+</div>
+<button (click)="toggle()">Toggle</button>
+<if-comp></if-comp>
+<for-comp></for-comp>
+<switch-comp></switch-comp>
