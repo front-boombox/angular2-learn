@@ -1,0 +1,14 @@
+.btn {
+  width: 150px;
+  font-size: 26px;
+  color: #fff;
+  border: 1px solid green;
+  background: green;
+  padding: 15px 20px;
+  &.clicked {
+    background: tomato !important;
+  }
+  &.active {
+    background: pink;
+  }
+}
